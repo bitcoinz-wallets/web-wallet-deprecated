@@ -1,4 +1,4 @@
-# www.myBitcoinZwallet.com
+# bitcoinzwebwallet.github.io
 BitcoinZ is based on Bitcoin + zkSNARKs and is a decentralized CDD.
 
 Community-driven development (CDD) is a development initiative that provides control of the development process, resources and decision making authority directly to groups in the community.
