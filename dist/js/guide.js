@@ -27439,9 +27439,9 @@ var ZNavbar = function (_React$Component) {
         _react2.default.createElement(_reactstrap.NavbarToggler, { right: true, onClick: this.toggleNavbar }),
         _react2.default.createElement(
           _reactstrap.NavbarBrand,
-          { href: '/' },
-          _react2.default.createElement('img', { src: '/favicon.ico', height: 42 }),
-          '\xA0bitcoinzwebwallet.github.io'
+          { href: '/web-wallet/' },
+          _react2.default.createElement('img', { src: '/web-wallet/favicon.ico', height: 42 }),
+          '\xA0bitcoinz-wallets.github.io/web-wallet/'
         ),
         _react2.default.createElement(
           _reactstrap.Collapse,
@@ -30599,7 +30599,7 @@ var ZFooter = function (_React$Component) {
                 _react2.default.createElement(
                   'b',
                   null,
-                  'bitcoinzwebwallet.github.io AND BOOKMARK IT'
+                  'bitcoinz-wallets.github.io/web-wallet/ AND BOOKMARK IT'
                 )
               ),
               _react2.default.createElement(
@@ -30625,7 +30625,7 @@ var ZFooter = function (_React$Component) {
               _react2.default.createElement('br', null),
               _react2.default.createElement(
                 'a',
-                { href: 'https://github.com/anthony19114/mybitcoinzwallet', target: '_blank' },
+                { href: 'https://github.com/bitcoinz-wallets/web-wallet', target: '_blank' },
                 'github'
               ),
               _react2.default.createElement('br', null),
@@ -31119,8 +31119,8 @@ var ZGuide = function (_React$Component) {
                 'Go to ',
                 _react2.default.createElement(
                   'a',
-                  { href: 'https://bitcoinzwebwallet.github.io' },
-                  'https://bitcoinzwebwallet.github.io'
+                  { href: 'https://bitcoinz-wallets.github.io/web-wallet/' },
+                  'https://bitcoinz-wallets.github.io/web-wallet/'
                 )
               ),
               _react2.default.createElement(
@@ -31172,8 +31172,8 @@ var ZGuide = function (_React$Component) {
                 'If you\'ve created a wallet on ',
                 _react2.default.createElement(
                   'a',
-                  { href: 'https://bitcoinzwebwallet.github.io' },
-                  'https://bitcoinzwebwallet.github.io'
+                  { href: 'https://bitcoinz-wallets.github.io/web-wallet/' },
+                  'https://bitcoinz-wallets.github.io/web-wallet/'
                 ),
                 ' via the secret phrase, simply re-enter the same phrase.'
               ),

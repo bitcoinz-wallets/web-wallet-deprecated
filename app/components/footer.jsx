@@ -15,13 +15,13 @@ export default class ZFooter extends React.Component {
   }
 
   render () {
-    return (      
+    return (
       <div style={footer}>
         <br/>
-        <Container>      
+        <Container>
         <Row>
           <Col md="8">
-            <p>MAKE SURE YOU ARE ON <b>bitcoinzwebwallet.github.io AND BOOKMARK IT</b></p>
+            <p>MAKE SURE YOU ARE ON <b>bitcoinz-wallets.github.io/web-wallet/ AND BOOKMARK IT</b></p>
 
             <p>Keys are validated client-side and do not leave your browser or network. You are responsible for keeping your own keys safe! SAVE YOUR PRIVATE KEY BEFORE SENDING OR RECEIVING, LEAVING THE PAGE WILL ERASE EVERYTHING.</p>
 
@@ -29,7 +29,7 @@ export default class ZFooter extends React.Component {
           <Col md="4">
             <a href="https://www.bitcoinz.site/" target="_blank">website</a><br/>
             <a href="https://bitcointalk.org/index.php?topic=2166510.0" target="_blank">ANN</a><br/>
-            <a href="https://github.com/anthony19114/mybitcoinzwallet" target="_blank">github</a><br/>
+            <a href="https://github.com/bitcoinz-wallets/web-wallet" target="_blank">github</a><br/>
             <a href="https://slack.bitcoinz.site/" target="_blank">slack</a><br/>
           </Col>
         </Row>

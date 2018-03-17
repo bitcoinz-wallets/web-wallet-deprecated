@@ -911,7 +911,7 @@ class ZWalletTabs extends React.Component {
     var now = new Date();
     now = now.toISOString().split('.')[0]+'Z';
 
-    var fileStr = '# Wallet dump created by myBitcoinZwallet ' + pjson.version + '\n'
+    var fileStr = '# Wallet dump created by bitcoinz-wallets ' + pjson.version + '\n'
     fileStr += '# Created on ' + now + '\n\n\n'
 
     Object.keys(this.props.publicAddresses).forEach(function(key) {
@@ -921,7 +921,7 @@ class ZWalletTabs extends React.Component {
     }.bind(this))
 
     const pkBlob = new Blob([fileStr], {type: 'text/plain;charset=utf-8'})
-    FileSaver.saveAs(pkBlob, now + '_mybitcoinzwallet_private_keys.txt')
+    FileSaver.saveAs(pkBlob, now + '_bitcoinz_wallets_private_keys.txt')
   }
 
   render () {
