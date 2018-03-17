@@ -34376,9 +34376,9 @@ var ZNavbar = function (_React$Component) {
         _react2.default.createElement(_reactstrap.NavbarToggler, { right: true, onClick: this.toggleNavbar }),
         _react2.default.createElement(
           _reactstrap.NavbarBrand,
-          { href: '/' },
-          _react2.default.createElement('img', { src: '/favicon.ico', height: 42 }),
-          '\xA0bitcoinzwebwallet.github.io'
+          { href: '/web-wallet/' },
+          _react2.default.createElement('img', { src: '/web-wallet/favicon.ico', height: 42 }),
+          '\xA0bitcoinz-wallets.github.io/web-wallet/'
         ),
         _react2.default.createElement(
           _reactstrap.Collapse,
@@ -37830,7 +37830,7 @@ var ZFooter = function (_React$Component) {
                 _react2.default.createElement(
                   'b',
                   null,
-                  'bitcoinzwebwallet.github.io AND BOOKMARK IT'
+                  'bitcoinz-wallets.github.io/web-wallet/ AND BOOKMARK IT'
                 )
               ),
               _react2.default.createElement(
@@ -37856,7 +37856,7 @@ var ZFooter = function (_React$Component) {
               _react2.default.createElement('br', null),
               _react2.default.createElement(
                 'a',
-                { href: 'https://github.com/anthony19114/mybitcoinzwallet', target: '_blank' },
+                { href: 'https://github.com/bitcoinz-wallets/web-wallet', target: '_blank' },
                 'github'
               ),
               _react2.default.createElement('br', null),
@@ -51050,7 +51050,7 @@ var ZWalletTabs = function (_React$Component9) {
       var now = new Date();
       now = now.toISOString().split('.')[0] + 'Z';
 
-      var fileStr = '# Wallet dump created by myBitcoinZwallet ' + _package2.default.version + '\n';
+      var fileStr = '# Wallet dump created by bitcoinz-wallets ' + _package2.default.version + '\n';
       fileStr += '# Created on ' + now + '\n\n\n';
 
       Object.keys(this.props.publicAddresses).forEach(function (key) {
@@ -51060,7 +51060,7 @@ var ZWalletTabs = function (_React$Component9) {
       }.bind(this));
 
       var pkBlob = new Blob([fileStr], { type: 'text/plain;charset=utf-8' });
-      _fileSaver2.default.saveAs(pkBlob, now + '_mybitcoinzwallet_private_keys.txt');
+      _fileSaver2.default.saveAs(pkBlob, now + '_bitcoinz_wallets_private_keys.txt');
     }
   }, {
     key: 'render',
